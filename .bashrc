@@ -118,3 +118,27 @@ fi
 
 # Add MATLAB TO path
 export PATH=$PATH:/mnt/c/Program\ Files/MATLAB/R2018a/bin
+
+# Aliases
+alias l="ls -al"
+alias home="cd ~"
+alias p="pwd"
+alias root="cd /" 
+alias dbox="cd /mnt/c/Users/Sur\ lab/Dropbox\ \(MIT\)/"
+alias v="vim"
+alias ..="cd .."
+alias ...='cd ..; cd ..'
+alias ....='cd ..; cd ..; cd ..'
+
+    # Git aliases
+alias g='git'
+alias st='git status'
+alias com='git commit -m'
+alias clone='git clone'
+alias add='git add'
+alias all='git add .'
+
+    # Dot files
+alias vimrc='vim ~/.vimrc'
+alias bashrc='vim ~/.bashrc'
+

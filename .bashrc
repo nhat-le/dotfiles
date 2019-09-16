@@ -125,6 +125,7 @@ alias home="cd ~"
 alias p="pwd"
 alias root="cd /" 
 alias dbox="cd /mnt/c/Users/Sur\ lab/Dropbox\ \(MIT\)/"
+alias encoding="cd /mnt/c/Users/Sur\ lab/Dropbox\ \(MIT\)/Sur/ExternalCode/encoding-model"
 alias v="vim"
 alias ..="cd .."
 alias ...='cd ..; cd ..'
@@ -137,8 +138,13 @@ alias com='git commit -m'
 alias clone='git clone'
 alias add='git add'
 alias all='git add .'
+alias push='git push'
 
     # Dot files
 alias vimrc='vim ~/.vimrc'
 alias bashrc='vim ~/.bashrc'
+alias sbash='source ~/.bashrc'
+
+    # MATLAB
+alias matlab='matlab.exe'
 

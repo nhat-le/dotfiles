@@ -124,8 +124,16 @@ alias l="ls -al"
 alias home="cd ~"
 alias p="pwd"
 alias root="cd /" 
-alias dbox="cd /mnt/c/Users/Sur\ lab/Dropbox\ \(MIT\)/"
-alias encoding="cd /mnt/c/Users/Sur\ lab/Dropbox\ \(MIT\)/Sur/ExternalCode/encoding-model"
+if [ "$HOSTNAME" == "LMN" ]; then
+    alias dbox="cd /mnt/c/Users/Le/Dropbox\ \(MIT\)/"
+elif [ "$HOSTNAME" == "ABC" ]; then
+    alias dbox="cd /mnt/c/Users/Sur\ lab/Dropbox\ \(MIT\)/"
+fi
+if [ "$HOSTNAME" == "LMN" ]; then
+    alias encoding="cd /mnt/c/Users/Le/Dropbox\ \(MIT\)/Sur/ExternalCode/encoding-model"
+elif [ "$HOSTNAME" == "ABC" ]; then
+    alias encoding="cd /mnt/c/Users/Sur\ lab/Dropbox\ \(MIT\)/Sur/ExternalCode/encoding-model"
+fi
 alias v="vim"
 alias ..="cd .."
 alias ...='cd ..; cd ..'

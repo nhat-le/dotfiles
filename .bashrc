@@ -124,6 +124,9 @@ alias l="ls -al"
 alias home="cd ~"
 alias p="pwd"
 alias root="cd /" 
+alias cdrive="cd /mnt/c"
+alias word="cdrive; cd Program\ Files\ \(x86\)/Microsoft\ Office/Office16/; ./WINWORD.EXE"
+alias excel="cdrive; cd Program\ Files\ \(x86\)/Microsoft\ Office/Office16/; ./EXCEL.EXE"
 
 if [ "$HOSTNAME" == "LMN" ]; then
     alias dbox="cd /mnt/c/Users/Le/Dropbox\ \(MIT\)/"

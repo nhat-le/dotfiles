@@ -119,21 +119,21 @@ fi
 # Add MATLAB TO path
 export PATH=$PATH:/mnt/c/Program\ Files/MATLAB/R2018a/bin
 
-# Aliases
+# Paths
 alias l="ls -al"
 alias home="cd ~"
 alias p="pwd"
 alias root="cd /" 
+
 if [ "$HOSTNAME" == "LMN" ]; then
     alias dbox="cd /mnt/c/Users/Le/Dropbox\ \(MIT\)/"
-elif [ "$HOSTNAME" == "ABC" ]; then
+elif [ "$HOSTNAME" == "DESKTOP-FN1P6HD" ]; then 
     alias dbox="cd /mnt/c/Users/Sur\ lab/Dropbox\ \(MIT\)/"
 fi
-if [ "$HOSTNAME" == "LMN" ]; then
-    alias encoding="cd /mnt/c/Users/Le/Dropbox\ \(MIT\)/Sur/ExternalCode/encoding-model"
-elif [ "$HOSTNAME" == "ABC" ]; then
-    alias encoding="cd /mnt/c/Users/Sur\ lab/Dropbox\ \(MIT\)/Sur/ExternalCode/encoding-model"
-fi
+
+alias encoding="dbox; cd Sur/ExternalCode/encoding-model"
+alias s2p="dbox; cd Sur/ExternalCode/suite2p"
+
 alias v="vim"
 alias ..="cd .."
 alias ...='cd ..; cd ..'
@@ -155,4 +155,22 @@ alias sbash='source ~/.bashrc'
 
     # MATLAB
 alias matlab='matlab.exe'
+
+export QT_QPA_PLATFORM='offscreen'
+
+#>>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/nmle/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/nmle/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/nmle/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/nmle/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
 

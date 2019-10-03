@@ -135,7 +135,8 @@ elif [ "$HOSTNAME" == "DESKTOP-FN1P6HD" ]; then
 fi
 
 alias encoding="dbox; cd Sur/ExternalCode/encoding-model"
-alias s2p="dbox; cd Sur/ExternalCode/suite2p"
+alias decoding="encoding; cd Decoding"
+alias suite2p="dbox; cd Sur/ExternalCode/suite2p"
 
 alias v="vim"
 alias ..="cd .."

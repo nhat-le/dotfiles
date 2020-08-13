@@ -14,7 +14,7 @@
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
 set nocompatible
- 
+
 " Attempt to determine the type of a file based on its name and possibly its
 " contents. Use this to allow intelligent auto-indenting for each filetype,
 " and for plugins that are filetype specific.
@@ -155,6 +155,9 @@ set expandtab
 " Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
 " which is the default
 map Y y$
+
+" Spell checking
+map <C-S> :setlocal spell! spellang=en_us<CR>
  
 " Map <C-L> (redraw screen) to also turn off search highlighting until the
 " next search

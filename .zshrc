@@ -68,7 +68,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions osx)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -95,9 +95,14 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zconfig="mate ~/.zshrc"
-alias zbash="source .zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zconf="vim ~/.zshrc"
+alias zbash="source ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+
+# Terminal commands
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -iv'
 
 # Paths
 alias l="ls -al"
@@ -108,6 +113,12 @@ alias v="vim"
 alias ..="cd .."
 alias ...="cd ..; cd .."
 alias ....="cd ..; cd ..; cd .."
+alias .3="cd ../../.."
+alias .4="cd ../../../.."
+alias .5="cd ../../../../.."
+alias .6="cd ../../../../../.."
+alias f="open -a Finder ./"
+
 
 # Git aliases
 alias g='git'
@@ -119,4 +130,42 @@ alias all='git add .'
 alias push='git push'
 
 # Dot files
-alias vimrc='vim ~/.vimrc'
+alias vconf='vim ~/.vimrc'
+
+# Programs
+alias matlab='/Applications/MATLAB_R2020a.app/bin/matlab'
+alias seven='mpv ~/Documents/Personal/sevenminutes.mp4'
+alias zoom='/Applications/zoom.us.app/Contents/MacOS/zoom.us'
+
+# Newsboat
+alias nburl='vim ~/.newsboat/urls'
+alias nbconf='vim ~/.newsboat/config'
+alias nb='newsboat'
+
+# Ranger
+alias rconf='vim ~/.config/ranger/rc.conf'
+
+# Conda aliases
+alias activate="conda activate"
+
+set -o vi
+
+# Anaconda initialize
+# export PATH="/Users/minhnhatle/opt/anaconda3/bin:$PATH"  # commented out by conda initialize
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/minhnhatle/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/minhnhatle/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/minhnhatle/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/minhnhatle/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

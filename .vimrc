@@ -120,8 +120,8 @@ set cmdheight=2
 set number
 
 " Relative line numbers
-" set relativenumber
-" set rnu
+set number relativenumber
+set nu rnu
  
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout ttimeout ttimeoutlen=200

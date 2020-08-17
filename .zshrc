@@ -3,7 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 #export ZSH="/Users/minhnhatle/.oh-my-zsh"
-export ZSH="/home/nhat/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -108,6 +108,8 @@ alias rm='rm -iv'
 alias l="ls -al"
 alias home="cd ~"
 alias blog="cd ~/Documents/Personal/Website/nhat-le.github.io/_posts"
+# TODO: make same paths for mac and HP computers
+#alias dotfiles="cd ~/Documents/dotfiles/"
 alias papers="dbox; cd Sur/Papers"
 alias p="pwd"
 alias dbox="cd ~/Dropbox\ \(MIT\)"

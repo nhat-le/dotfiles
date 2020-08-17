@@ -1,0 +1,59 @@
+auto-reload yes
+browser /Applications/Firefox.app/Contents/MacOS/firefox 
+
+#mark-as-read-on-hover yes
+openbrowser-and-mark-jumps-to-next-unread yes
+
+# Colors
+color info white blue bold
+color listnormal_unread white default underline bold
+color listfocus black yellow bold
+color listfocus_unread color226 color12 bold
+
+unbind-key J
+unbind-key j
+unbind-key K
+unbind-key k
+unbind-key e
+unbind-key n
+unbind-key l
+unbind-key ,
+unbind-key S
+
+bind-key S save-all
+bind-key l edit-flags
+bind-key N next-unread
+bind-key n toggle-article-read
+bind-key e edit-urls
+bind-key j next
+bind-key J next-feed
+bind-key k prev
+bind-key K prev-feed
+bind-key ; macro-prefix
+
+
+player mpv
+download-path "~/Downloads/newsboat"
+save-path "~/Documents/newsboat"
+macro m set browser "mpv %u"; open-in-browser ; set browser /Applications/Firefox.app/Contents/MacOS/firefox  
+macro f edit-flags "n"; toggle-article-read "read"
+macro u edit-flags ""; toggle-article-read "read"
+
+
+# Highlighting
+highlight-article "author =~ \"Ann.*Sizemore\"" black color214 bold
+highlight-article "author =~ \"Cristopher.*Niell\"" black color214 bold
+highlight-article "author =~ \"Botvinick\"" black color214 bold
+highlight-article "author =~ \"Churchland\"" black color214 bold
+highlight-article "author =~ \"Abbott\"" black color214 bold
+highlight-article "author =~ \"Cunningham\"" black color214 bold
+highlight-article "author =~ \"Meister\"" black color214 bold
+highlight-article "author =~ \"Doris.*Tsao\"" black color214 bold
+highlight-article "author =~ \"Carandini\"" black color214 bold
+highlight-article "author =~ \"Steinmetz\"" black color214 bold
+highlight-article "author =~ \"Larkum\"" black color214 bold
+highlight-article "author =~ \"Xiao-Jing.*Wang\"" black color214 bold
+highlight-article "author =~ \"Jazayeri\"" black color214 bold
+highlight-article "author =~ \"Carlos.*Brody\"" black color214 bold
+highlight-article "author =~ \"Pillow\"" black color214 bold
+highlight-article "flags =~ \"n\"" white red bold

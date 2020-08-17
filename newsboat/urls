@@ -1,0 +1,56 @@
+------------------------------JOURNALS------------------------------------
+http://feeds.nature.com/neuro/rss/current "~JOURNALS: Nature Neuroscience"
+http://feeds.nature.com/nature/rss/current "~JOURNALS: Nature"
+http://feeds.nature.com/ncomms/rss/current "~JOURNALS: Nature Communications"
+https://science.sciencemag.org/rss/current.xml "~JOURNALS: Science (Current Issue)"
+https://science.sciencemag.org/rss/express.xml "~JOURNALS: Science (Express)"
+www.nature.com/nrn.rss "~JOURNALS: Nature Reviews Neuroscience"
+http://www.cell.com/cell/inpress.rss "~JOURNALS: Cell"
+http://www.cell.com/neuron/inpress.rss "~JOURNALS: Neuron"
+https://elifesciences.org/rss/ahead.xml "~JOURNALS: eLife (Author manuscript)"
+https://elifesciences.org/rss/recent.xml "~JOURNALS: eLife (Published)"
+https://www.jneurosci.org/rss/recent.xml "~JOURNALS: Journal of Neuroscience"
+https://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles "~JOURNALS: PNAS"
+http://feeds.nature.com/srep/rss/current "~JOURNALS: Scientific Reports"
+https://journals.plos.org/ploscompbiol/feed/atom "~JOURNALS: PLOS Computational Biology"
+https://journals.plos.org/plosone/feed/atom "~JOURNALS: PLOS ONE"
+
+
+------------------------------BIORXIV-------------------------------------
+https://connect.biorxiv.org/biorxiv_xml.php?subject=animal_behavior_and_cognition "~BIORXIV: Animal behavior and Cognition"
+
+https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience "~BIORXIV: Neuroscience"
+
+------------------------------MEDIUM--------------------------------------
+https://medium.com/feed/@eLife "~MEDIUM: eLife"
+https://medium.com/feed/the-spike "~MEDIUM: The Spike"
+
+
+------------------------------TWITTER-------------------------------------
+https://nitter.net/ch402/rss "~TWITTER: Chris Olah"
+https://nitter.net/doristsao/rss "~TWITTER: Doris Tsao"
+https://nitter.net/markdhumphries/rss "~TWITTER: Mark Humphries"
+https://nitter.net/gershbrain/rss "~TWITTER: Sam Gershman"
+https://nitter.net/goodfellow_ian/rss "~TWITTER: Ian Goodfellow"
+https://nitter.net/jakevdp/rss "~TWITTER: Jake vanderPlas"
+https://nitter.net/mameister4/rss "~TWITTER: Marcus Meister"
+https://nitter.net/marius10p/rss "~TWITTER: Marius Pachitariu"
+https://nitter.net/markdhumphries/rss "~TWITTER: Mark Humphries"
+https://nitter.net/mjaztwit/rss "~TWITTER: Mehrdad Jazayeri"
+https://nitter.net/shadlen/rss "~TWITTER: Michael Shadlen"
+
+
+------------------------------NEWS----------------------------------------
+http://rss.cnn.com/rss/cnn_latest.rss "~NEWS: CNN" "!"
+https://www.lemonde.fr/international/rss_full.xml "~NEWS: Le Monde International"
+https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss "~NEWS: NASA Image of the day"
+https://science.nasa.gov/get-involved/connect "~NEWS: NASA podcast"
+
+------------------------------YOUTUBE-------------------------------------
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8R8FRt1KcPiR-rtAflXmeg "~YOUTUBE: Nahre Sol"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A "~YOUTUBE: Numberphile"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMtFAi84ehTSYSE9XoHefig "~YOUTUBE: The Late Show With Stephen Colbert"
+https://www.youtube.com/feeds/videos.xml?channel_id=UChHFN-jSblinkmBjwDn-EDw "~YOUTUBE: Cao Bao Anh"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~YOUTUBE: Luke Smith"
+https://lukesmith.xyz/rss.xml "~YOUTUBE: Luke Smith xyz"
+https://lukesmith.xyz/youtube.xml "~YOUTUBE: Luke Smith youtube"

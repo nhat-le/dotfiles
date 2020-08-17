@@ -1,0 +1,23 @@
+set window-height 3000
+set window-width 3000
+
+map J zoom in
+map K zoom out
+map p print
+map i recolor
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map fullscreen j scroll down
+map fullscreen k scroll up
+map fullscreen u scroll half-up
+map fullscreen d scroll half-down
+map t toggle_fullscreen
+map fullscreen t toggle_fullscreen
+
+
+set page-padding 1
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+
+set selection-clipboard clipboard

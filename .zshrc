@@ -95,7 +95,6 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zconf="vim ~/.zshrc"
 alias zbash="source ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 
@@ -107,6 +106,8 @@ alias rm='rm -iv'
 # Paths
 alias l="ls -al"
 alias home="cd ~"
+alias blog="cd ~/Documents/Personal/Website/nhat-le.github.io/_posts"
+alias papers="dbox; cd Sur/Papers"
 alias p="pwd"
 alias dbox="cd ~/Dropbox\ \(MIT\)"
 alias v="vim"
@@ -130,7 +131,6 @@ alias all='git add .'
 alias push='git push'
 
 # Dot files
-alias vconf='vim ~/.vimrc'
 
 # Programs
 alias matlab='/Applications/MATLAB_R2020a.app/bin/matlab'
@@ -139,16 +139,27 @@ alias zoom='/Applications/zoom.us.app/Contents/MacOS/zoom.us'
 
 # Newsboat
 alias nburl='vim ~/.newsboat/urls'
-alias nbconf='vim ~/.newsboat/config'
 alias nb='newsboat'
 
 # Ranger
-alias rconf='vim ~/.config/ranger/rc.conf'
 
 # Conda aliases
 alias activate="conda activate"
 
 set -o vi
+
+
+# Edit config files
+alias zaconf='vim ~/.config/zathura/zathurarc' #Zathura
+alias rconf='vim ~/.config/ranger/rc.conf' #Ranger
+alias nbconf='vim ~/.newsboat/config' #Newsboat
+alias nmconf='vim ~/.config/mutt/muttrc' # Neomutt
+alias zconf="vim ~/.zshrc" #zsh
+alias vconf='vim ~/.vimrc' #vim
+alias fconf='vim ~/Documents/Sur/Fiji/StartupMacros.fiji.ijm' #Fiji startup
+alias ijconf='vim ~/Documents/Sur/Fiji/StartupMacros.txt' #Imagej startup
+
+
 
 # Anaconda initialize
 # export PATH="/Users/minhnhatle/opt/anaconda3/bin:$PATH"  # commented out by conda initialize
